@@ -72,3 +72,7 @@ def text_to_morse(text):
     """Converts text to Morse code."""
     pass
 
+num = [1,2,6,7,8,1,9,4,5]
+var = {x for x in num if x%2==0}
+print(var)
+
